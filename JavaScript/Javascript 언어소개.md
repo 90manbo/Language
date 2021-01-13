@@ -12,9 +12,9 @@
   - Node.js
 
   ```
-  웹서버 					  웹	   			웹브라우저
-  	  					<--요청---
-        					---응답-->
+  웹서버 					                  웹	                			웹브라우저
+  	  				                  	<--요청---
+        					                ---응답-->
   (PHP, Java, Python..)					   
   (Node.js 웹서버를 제어하기 위한 기술의 자바스크립트)
   ```
@@ -37,7 +37,7 @@
 
   ```javascript
   fuction onOpen(){
-  	var name = Browser.msBox('hello world');
+  	var name = Browser.msgBox('hello world');
   };
   ```
 
