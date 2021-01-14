@@ -5,11 +5,11 @@
 </head>
 <body>
     <script>
-if(isNaN(NaN)){
-	alert('NaN == NaN');
-}else {
-	alert('NaN != NaN');
-}
+[0,1,2].forEach(function(i){
+	setTimeout(function(){
+		alert(i);
+	}, 0);
+});
     </script>
 </body>
 </html>
