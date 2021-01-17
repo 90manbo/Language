@@ -5,11 +5,13 @@
 </head>
 <body>
     <script>
-var arr1 = Array();
-var arr2 = Array(1);
-var arr3 = Array(2,3,4,5);
+         var intervalID = setInterval(function(){
+            alert(new Date());
+         }, 1000);
 
-alert(arr1 + '\n' + arr2 + '\n' + arr3);
+         setTimeout(function(){
+            clearInterval(intervalID);
+         }, 10000);
     </script>
 </body>
 </html>
