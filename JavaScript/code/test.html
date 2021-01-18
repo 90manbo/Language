@@ -5,29 +5,22 @@
 </head>
 <body>
 <script>
-var student = {};
+function clone(obj){
+	var output = {};
+	for(var i in obj){
+		output[i] = obj[i];
+	}
+	return output;
+}
 
-student.이름 = '윤인성';
-student.취미 = '악기';
-student.특기 = '프로그래밍';
-student.장래희망 = '생명공학자';
+var origin = {a: 10, b: 20};
+var referenced = origin;
+var cloned = clone(origin);
 
-//메서드도 속성이므로 추가할 수 있음.
-student.toString = function(){
-    var output = '';
-    for(var key in this){
-        if(key != 'toString'){
-            output += key + '\t' + this[key] + '\n';
-        }
-    }
-    return output;
-};
+origin.a = 20;
 
-alert(student.toString());
-
-delete(student.장래희망);
-
-alert(student.toString());
+alert(JSON.stringify(referenced, null, 2))
+alert(JSON.stringify(cloned, null, 2))
 </script>
 </body>
 </html>
