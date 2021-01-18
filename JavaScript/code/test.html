@@ -4,14 +4,13 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <script>
-         var intervalID = setInterval(function(){
-            alert(new Date());
-         }, 1000);
+<script>
+function test(a, b, c, d){
+	alert(`${a}:${b}:${c}:${d}`);
+}
 
-         setTimeout(function(){
-            clearInterval(intervalID);
-         }, 10000);
-    </script>
+var array = [1,2,3,4];
+test(...array);
+</script>
 </body>
 </html>
