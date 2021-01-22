@@ -5,12 +5,12 @@
 </head>
 <body>
 <script>
-    var date = new Date();
-    var hour = date.getHours();
-
-    if(hour>12){
-        alert('오후');
+    var seconds = (new Date()).getSeconds();
+    while((new Date()).getSeconds() < seconds + 5){
+        alert(seconds);
     }
+
+    
 </script>
 </body>
 </html>
