@@ -5,14 +5,22 @@
 </head>
 <body>
 <script>
+    var array = [52, 273, 103, 32, 57, 103 , 31, 2];
 
-    var i = 0;
+    var min = Number.MAX_VALUE;
+    var max = Number.MIN_VALUE;
 
-    while(i<10){
-        alert(i);
-        i++;
+    for(var i = 0; i<array.length; i++){
+        if(min>array[i]){
+            min = array[i];
+        }
+
+        if(max<array[i]){
+            max = array[i];
+        }
     }
 
+    alert(min+" "+max);
 </script>
 </body>
 </html>
