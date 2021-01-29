@@ -5,22 +5,16 @@
 </head>
 <body>
 <script>
-    var array = [52, 273, 103, 32, 57, 103 , 31, 2];
-
-    var min = Number.MAX_VALUE;
-    var max = Number.MIN_VALUE;
-
-    for(var i = 0; i<array.length; i++){
-        if(min>array[i]){
-            min = array[i];
+    function sumAll(){
+        var output = 0;
+        for(var i = 0; i<arguments.length; i++){
+            output += arguments[i];
         }
-
-        if(max<array[i]){
-            max = array[i];
-        }
+        return output;
     }
 
-    alert(min+" "+max);
+    alert(sumAll(10));
+    alert(sumAll(1,2,3,4,5,6,7,8));
 </script>
 </body>
 </html>
