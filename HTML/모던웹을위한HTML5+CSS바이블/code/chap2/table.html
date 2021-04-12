@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <!-- td(table data), th(table header), tr(table row)-->
-        <table border="1">
-            <tr>
-                <th>header1</th>
-                <th>header2</th>
-            </tr>
-            <tr>
-                <td>data1</td>
-                <td>data2</td>
-            </tr>
-            <tr>
-                <td>data3</td>
-                <td>data4</td>
-            </tr>
-        </table>
-        <hr/>
 
-        <table border="1">
-            <caption>Caption</caption>
-            <colgroup>
-                <col style="background: blue">
-                <col span="2" style="background: red">
-            </colgroup>
-            <thead style="background: green">
-                <tr>
-                    <th>table header1</th>
-                    <th>table header2</th>
-                    <th>table header3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Table Data1</td>
-                    <td>Table Data2</td>
-                    <td>Table Data3</td>
-                </tr>
-                <tr>
-                    <td>Table Data4</td>
-                    <td>Table Data5</td>
-                    <td>Table Data6</td>
-                </tr>
-                <tr>
-                    <td>Table Data7</td>
-                    <td>Table Data8</td>
-                    <td>Table Data9</td>
-                </tr>
-            </tbody>
-            <tfoot style="background-color: yellow">
-                <tr>
-                    <td>Table Data10</td>
-                    <td>Table Data11</td>
-                    <td>Table Data12</td>
-                </tr>
-            </tfoot>
-        </table>
-        <hr/>
+<head>
+    <meta charset="utf-8">
+</head>
 
-        <table border="1">
+<body>
+    <!-- td(table data), th(table header), tr(table row)-->
+    <table border="1">
+        <tr>
+            <th>header1</th>
+            <th>header2</th>
+        </tr>
+        <tr>
+            <td>data1</td>
+            <td>data2</td>
+        </tr>
+        <tr>
+            <td>data3</td>
+            <td>data4</td>
+        </tr>
+    </table>
+    <hr />
+
+    <table border="1">
+        <caption>Caption</caption>
+        <colgroup>
+            <col style="background: blue">
+            <col span="2" style="background: red">
+        </colgroup>
+        <thead style="background: green">
             <tr>
-                <th colspan="3">Table header1</th>
-                <th rowspan="3">Table header2</th>
+                <th>table header1</th>
+                <th>table header2</th>
+                <th>table header3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Table Data1</td>
+                <td>Table Data2</td>
+                <td>Table Data3</td>
             </tr>
             <tr>
-                <td>table data1</td>
-                <td rowspan="2">table data2</td>
-                <td>table data3</td>
+                <td>Table Data4</td>
+                <td>Table Data5</td>
+                <td>Table Data6</td>
             </tr>
             <tr>
-                <td>table data4</td>
-                <td>table data5</td>
+                <td>Table Data7</td>
+                <td>Table Data8</td>
+                <td>Table Data9</td>
             </tr>
-        </table>
-    </body>
+        </tbody>
+        <tfoot style="background-color: yellow">
+            <tr>
+                <td>Table Data10</td>
+                <td>Table Data11</td>
+                <td>Table Data12</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr />
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Table header1</th>
+            <th rowspan="3">Table header2</th>
+        </tr>
+        <tr>
+            <td>table data1</td>
+            <td rowspan="2">table data2</td>
+            <td>table data3</td>
+        </tr>
+        <tr>
+            <td>table data4</td>
+            <td>table data5</td>
+        </tr>
+    </table>
+</body>
+
 </html>
