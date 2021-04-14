@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a.b.c {
+            color : blue;
+        }
+
+        #heading {
+            color : red;
+        }
+
+        body li {
+            color : yellow;
+        }
+        
+        body > p {
+            color : green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Hello World</h1>
+    <h1 id="heading2">Hello World</h1>
+    <h2 class="a b c">Lorem ipsum</h2>
+    <p class="a b">Ad culpa est quis reprehenderit excepteur velit ut cupidatat.</p>
+
+    <ul>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+    </ul>
+    
+    <!-- h1[title=test] -->
+    <h1 title="test"></h1>
+
+    <!-- ul>li*5>img[src]-->
+    <ul>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+    </ul>
+
+    <!-- p{test}-->
+    <p>test</p>
+    <!-- li.item$*3-->
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+</body>
+</html>
