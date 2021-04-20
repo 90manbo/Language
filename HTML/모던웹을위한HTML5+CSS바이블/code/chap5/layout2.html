@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Pen+Script&display=swap"
+    rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        .header > h1 {
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        li {
+            list-style: none;
+        }
+    </style>
+
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .content {
+            overflow: hidden;
+        }
+
+        .section {
+            width: 700px; float: left;
+        }
+
+        .aside {
+            width: 250px;
+            float: right;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+        li {
+            float:  left;
+        }
+
+        .header {
+            height: 100px;
+            position: relative;
+        }
+        .header h1 {
+            position: absolute;
+            left: 10px;
+            top: 30px;
+        }
+        .gnb {
+            position: absolute;
+            right: 0; top: 0;
+        }
+        .lnb{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .container div{
+            box-sizing: border-box;
+            border: 1px solid black;
+            margin-top: 5px; margin-bottom: 5px;
+        }
+        input {
+            display: none;
+        }
+        input:nth-of-type(1)~div:nth-of-type(1) {
+            display: none;
+        }
+
+        input:nth-of-type(2)~div:nth-of-type(2) {
+            display: none;
+        }
+
+
+        input:nth-of-type(1):checked ~div:nth-of-type(1) {
+            display: block;
+        }
+
+        input:nth-of-type(2):checked ~div:nth-of-type(2) {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Test Page</h1>
+            <div class="gnb">
+                <ul>
+                    <li>menu1</li>
+                    <li>menu2</li>
+                    <li>test3</li>
+                    <li>test4</li>
+                    <li>test4</li>
+                </ul>
+            </div>
+            <div class="lnb">
+                <ul>
+                    <li>menu1</li>
+                    <li>menu2</li>
+                    <li>test3</li>
+                    <li>test4</li>
+                    <li>test4</li>
+                    <li>testtest</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <article>
+                    <h1>Article Test</h1>
+                    <p>Laboris deserunt cupidatat dolor commodo laborum ullamco minim laboris. Incididunt reprehenderit aute consequat tempor consectetur ex est. Non nulla ut consectetur consectetur voluptate veniam commodo esse amet nostrud in ut et. Voluptate in pariatur esse est laborum qui ut adipisicing sunt deserunt sint fugiat aliqua.</p>
+                    <p>Qui aliqua Lorem elit pariatur nisi enim laboris nulla. Veniam occaecat excepteur duis pariatur aliquip quis labore irure veniam est magna ullamco ea mollit. Qui duis cupidatat id enim Lorem enim fugiat duis et consequat.</p>
+                    <p>Est sunt amet exercitation eiusmod eiusmod. Ea eu ea ipsum tempor. Sunt amet tempor cillum et quis commodo deserunt et aute anim eu enim. Id officia elit Lorem incididunt est irure non. Ad nostrud veniam amet eiusmod laboris laboris ea cupidatat mollit amet. Commodo non et aute dolore proident adipisicing nulla.</p>
+                    <p>Laboris deserunt cupidatat dolor commodo laborum ullamco minim laboris. Incididunt reprehenderit aute consequat tempor consectetur ex est. Non nulla ut consectetur consectetur voluptate veniam commodo esse amet nostrud in ut et. Voluptate in pariatur esse est laborum qui ut adipisicing sunt deserunt sint fugiat aliqua.</p>
+                    <p>Qui aliqua Lorem elit pariatur nisi enim laboris nulla. Veniam occaecat excepteur duis pariatur aliquip quis labore irure veniam est magna ullamco ea mollit. Qui duis cupidatat id enim Lorem enim fugiat duis et consequat.</p>
+                    <p>Est sunt amet exercitation eiusmod eiusmod. Ea eu ea ipsum tempor. Sunt amet tempor cillum et quis commodo deserunt et aute anim eu enim. Id officia elit Lorem incididunt est irure non. Ad nostrud veniam amet eiusmod laboris laboris ea cupidatat mollit amet. Commodo non et aute dolore proident adipisicing nulla.</p>
+                    <p>Laboris deserunt cupidatat dolor commodo laborum ullamco minim laboris. Incididunt reprehenderit aute consequat tempor consectetur ex est. Non nulla ut consectetur consectetur voluptate veniam commodo esse amet nostrud in ut et. Voluptate in pariatur esse est laborum qui ut adipisicing sunt deserunt sint fugiat aliqua.</p>
+                    <p>Qui aliqua Lorem elit pariatur nisi enim laboris nulla. Veniam occaecat excepteur duis pariatur aliquip quis labore irure veniam est magna ullamco ea mollit. Qui duis cupidatat id enim Lorem enim fugiat duis et consequat.</p>
+                    <p>Est sunt amet exercitation eiusmod eiusmod. Ea eu ea ipsum tempor. Sunt amet tempor cillum et quis commodo deserunt et aute anim eu enim. Id officia elit Lorem incididunt est irure non. Ad nostrud veniam amet eiusmod laboris laboris ea cupidatat mollit amet. Commodo non et aute dolore proident adipisicing nulla.</p>
+                    <p>Laboris deserunt cupidatat dolor commodo laborum ullamco minim laboris. Incididunt reprehenderit aute consequat tempor consectetur ex est. Non nulla ut consectetur consectetur voluptate veniam commodo esse amet nostrud in ut et. Voluptate in pariatur esse est laborum qui ut adipisicing sunt deserunt sint fugiat aliqua.</p>
+                    <p>Qui aliqua Lorem elit pariatur nisi enim laboris nulla. Veniam occaecat excepteur duis pariatur aliquip quis labore irure veniam est magna ullamco ea mollit. Qui duis cupidatat id enim Lorem enim fugiat duis et consequat.</p>
+                    <p>Est sunt amet exercitation eiusmod eiusmod. Ea eu ea ipsum tempor. Sunt amet tempor cillum et quis commodo deserunt et aute anim eu enim. Id officia elit Lorem incididunt est irure non. Ad nostrud veniam amet eiusmod laboris laboris ea cupidatat mollit amet. Commodo non et aute dolore proident adipisicing nulla.</p>
+                </article>
+            </div>
+            <div class="aside">
+                <label for="tab-1">TAB1</label>
+                <label for="tab-2">TAB2</label>
+                <input type="radio" name="tab" id="tab-1" checked="checked">
+                <input type="radio" name="tab" id="tab-2">
+                <div class="tab-item">Culpa consequat dolor consequat in in deserunt consectetur ea anim consequat Lorem eiusmod consequat. Tempor veniam exercitation aliquip exercitation et ut aliqua pariatur anim qui. Esse consectetur elit occaecat adipisicing. Nisi cupidatat ad elit ullamco aute eu reprehenderit minim sunt aliquip occaecat occaecat consequat.</div>
+                <div class="tab-item">Elit esse nostrud velit nisi dolor incididunt aute adipisicing est tempor minim ad. Nulla nulla nostrud mollit ipsum ea aliqua sit dolor reprehenderit non tempor sint eu. Est quis pariatur irure deserunt adipisicing non veniam ex proident in tempor tempor laborum excepteur.</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Excepteur ut irure incididunt non est in commodo magna minim voluptate. Reprehenderit exercitation commodo elit proident pariatur sit sunt fugiat. Et labore tempor consectetur aliquip. Do dolore irure velit do irure veniam incididunt eu aliqua in do eiusmod. Tempor reprehenderit ea Lorem laborum ipsum esse duis. Culpa deserunt dolor mollit commodo eu consectetur esse deserunt.</p>
+        </div>
+    </div>
+</body>
+</html>
