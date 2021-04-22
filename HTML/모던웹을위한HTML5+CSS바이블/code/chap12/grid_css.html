@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 8fr;
+            grid-gap: 10px;
+            grid-template-areas: 
+                'header header'
+                'aside section'
+                'footer footer';
+        }
+
+        .container > div {
+            background-color: grey;
+        }
+
+        .header {
+            grid-area: header;
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .section {
+            grid-area: section;
+        }
+        .footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+            <p>Aliqua ut tempor pariatur velit Lorem adipisicing id pariatur velit enim est magna. Minim magna nostrud ut enim duis anim adipisicing ea cillum. Qui sunt eiusmod tempor proident. Velit deserunt eu officia ullamco sunt occaecat nostrud adipisicing aute dolore ut.</p>
+        </div>
+        <div class="aside">
+            <h1>Aside</h1>
+            <p>Irure dolore commodo magna est ut Lorem ea irure sunt cillum in do. Nisi ullamco deserunt eiusmod consectetur culpa aliquip aliqua cillum consequat. Incididunt deserunt aute laboris esse nulla reprehenderit anim quis laboris nulla reprehenderit duis eiusmod. Ad amet eu do aute aliquip deserunt sit.</p>
+        </div>
+        <div class="section">
+            <h1>Section</h1>
+            <p>Tempor eiusmod cillum velit labore. Est tempor et dolore id qui laboris nisi irure elit amet aute velit. Pariatur Lorem exercitation nostrud cupidatat consectetur cillum laboris. Sint duis non cupidatat enim nostrud id reprehenderit consequat irure ut consequat.</p>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+            <p>Aliquip aliqua in ex magna qui dolore mollit dolor qui minim dolor.</p>
+        </div>
+    </div>
+</body>
+</html>
