@@ -1,0 +1,22 @@
+div, span {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: pink;
+}
+
+div {
+    background-color: red;
+    display: inline-block;
+}
+
+span {
+    background-color: blue;
+    display: block;
+}
+
+/*
+inline : 컨텐츠 사이즈에 맞게 옆으로 
+inline-block : 지정한 사이즈에 맞게 옆으로 쌓임 
+blcok : 지정한 사이즈에 맞게 아래로 쌓임. 
+*/

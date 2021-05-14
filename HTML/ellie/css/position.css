@@ -1,0 +1,28 @@
+div {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.container {
+    background-color: yellow;
+    left: 20px;
+    top: 20px;
+    position: relative;
+}
+
+.box {
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+    position: sticky;
+}
+
+/*
+static : 기본값.
+relative : 원래 있던 자리에서 움직임
+absolute : 아이템이 담겨있는 상자 안에서 움직임
+fixed : 상자를 완전히 벗어나서, 웹페이지 안에서 움직임
+sticky : 스크롤링 되어도 원래 있던 자리에 그대로 붙어있음.
+*/
