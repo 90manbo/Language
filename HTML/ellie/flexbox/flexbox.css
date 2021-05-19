@@ -1,0 +1,77 @@
+.container {
+    background-color: beige;
+
+    /*부모태그에 상관없이 보이는 viewport height를 다 100% 쓰겠다 */
+    height: 100vh;
+
+    display: flex;
+
+    /*아이템 배치 방향*/
+    flex-direction: row;
+
+    /*화면크기에 따라 아이템 배치가 한 줄에 다 나타남(nowrap), 넘어가면 다음 줄(wrap)에 나타남 */
+    flex-wrap: wrap;
+
+    /*flex-flow: row wrap;*/
+    
+    /*중심축에서 아이템 배치*/
+    /*
+    flex-start: 기본 값 왼쪽에서 배치
+    flex-end: 아이템 순서는 유지하되 오른쪽에서 배치
+    center: 중앙에 배치
+    space-around: 아이템에 간격을 넣음.
+    space-even, space-between
+    */
+    justify-content: flex-start;
+
+    /*반대축에서 아이템 배치*/
+    /*baseline: 텍스트가 균등하게 보이도록 배치*/
+    align-items: baseline;
+    align-content: space-between;
+
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background: red;
+}
+
+.item2 {
+    background: orange;
+}
+
+.item3 {
+    background: yellow;
+}
+
+.item4 {
+    background: greenyellow;
+}
+
+.item5 {
+    background: green;
+}
+
+.item6 {
+    background: blue;
+}
+
+.item7 {
+    background: darkblue;
+}
+.item8 {
+    background: blueviolet;
+}
+
+.item9 {
+    background: darkcyan;
+}
+
+.item10 {
+    background: royalblue;
+}
