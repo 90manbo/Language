@@ -1,0 +1,34 @@
+<!-- em : 타이포그라피에서 현재 지정된 포인트사이즈(폰트사이즈)를 나타내는 단위이다. -->
+<!-- 부모의 폰트사이즈를 곱한 값으로 계산 하면 된다. -->
+<!-- fontsize가 16px 이면, 1em은 16px -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            /*
+            16px * 8 = 128px
+            800% 와 동일하다.
+            */
+            font-size: 8em;
+        }
+        .child {
+            /*
+            128px * 0.5 = 64px
+            50%d와 동일하다.
+            */
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        parent
+        <div class="child">child</div>
+    </div>
+</body>
+</html>

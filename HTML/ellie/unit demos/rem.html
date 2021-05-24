@@ -1,0 +1,30 @@
+<!-- 루트에 지정된 폰트사이즈에 따라서 크기가 지정됨. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            /*
+            16px * 8 = 128px
+            */
+            font-size: 8rem;
+        }
+        .child {
+            /*
+            16px * 0.5 = 8px
+            */
+            font-size: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        parent
+        <div class="child">child</div>
+    </div>
+</body>
+</html>
