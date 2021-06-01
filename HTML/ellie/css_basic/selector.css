@@ -19,6 +19,7 @@ li#special {
 .red {
     width: 100px;
     height: 100px;
+    
     /* 컨텐츠 안의 공간 */
     padding: 20px 0px;
 
@@ -49,7 +50,7 @@ a[herf^="naver"]{
     color: purple;
 }
 
-/*naver로 끝나는 애들만*/
+/*.com으로 끝나는 애들만*/
 a[herf$=".com"]{
     color: brown;
 }
