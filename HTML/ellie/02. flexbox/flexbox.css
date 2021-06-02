@@ -1,7 +1,7 @@
 .container {
     background-color: beige;
 
-    /*부모태그에 상관없이 보이는 viewport height를 다 100% 쓰겠다 */
+    /*부모태그에 상관없이 보이는 viewport height를 다 100% 쓰겠다*/
     height: 100vh;
 
     display: flex;
