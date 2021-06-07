@@ -1,3 +1,24 @@
+/*
+<container>
+- display
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-items
+- align-content
+
+<item>
+- order
+- flex-grow
+- flex-shrink
+- flex
+- align-self
+*/
+
+
+
+
 .container {
     background-color: beige;
 
@@ -9,7 +30,7 @@
     /*아이템 배치 방향*/
     flex-direction: row;
 
-    /*화면크기에 따라 아이템 배치가 한 줄에 다 나타남(nowrap), 넘어가면 다음 줄(wrap)에 나타남 */
+    /*화면크기에 따라 아이템 배치가 한 줄에 다 나타남(nowrap), 넘어가면 다음 줄(wrap)에 나타남*/
     flex-wrap: wrap;
 
     /*flex-flow: row wrap;*/
