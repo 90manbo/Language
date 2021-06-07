@@ -30,26 +30,34 @@
     /*아이템 배치 방향*/
     flex-direction: row;
 
-    /*화면크기에 따라 아이템 배치가 한 줄에 다 나타남(nowrap), 넘어가면 다음 줄(wrap)에 나타남*/
+    /*화면크기에 따라 아이템 배치가 한 줄에 다 나타남(nowrap), 넘어가면 다음 줄(wrap)에 나타남, 방향 거꾸로(wrap-reverse) */
     flex-wrap: wrap;
 
+    /*위에 flex-direction과 flex-wrap을 동시에 쓰려면 flex-flow */
     /*flex-flow: row wrap;*/
     
     /*중심축에서 아이템 배치*/
+    justify-content: space-between;
     /*
     flex-start: 기본 값 왼쪽에서 배치
     flex-end: 아이템 순서는 유지하되 오른쪽에서 배치
     center: 중앙에 배치
     space-around: 아이템에 간격을 넣음.
-    space-even, space-between
+    space-evenly, space-between
     */
-    justify-content: flex-start;
 
     /*반대축에서 아이템 배치*/
-    /*baseline: 텍스트가 균등하게 보이도록 배치*/
     align-items: baseline;
-    align-content: space-between;
+    /*baseline: 텍스트가 균등하게 보이도록 배치*/
 
+    /*반대축에서 아이템 배치*/
+    align-content: center;
+
+    /*
+    align-content 는 줄 사이의 간격을 결정하는 반면, 
+    align-items 는 전체 항목이 컨테이너 내에서 정렬되는 방식을 결정합니다. 
+    한 줄만 있으면 align-content 가 효과가 없습니다.
+    */
 }
 
 .item {

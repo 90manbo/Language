@@ -13,12 +13,18 @@
 
 .item1 {
     background: red;
+    
     /*화면속 아이템 크기*/
-    /*
+    
+    /*늘어나는*/
     flex-grow: 1;
-    flex-shrink: 2;
+
+    /*줄어드는*/
+    flex-shrink: 2; 
+
+    /*grow, shrink에 맞춰서: auto, 아니면 %로 쓸 수 있음.*/
     flex-basis: auto;
-    */
+
     flex: 2 2 auto; /*grow shrink basis*/
     
     /*아이템별 배치*/
