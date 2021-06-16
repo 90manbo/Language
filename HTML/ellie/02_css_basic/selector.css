@@ -1,4 +1,13 @@
 /*
+Universal : *
+Type : Tag
+ID: #id
+Class : .class
+State : :
+Attribute : []
+*/
+
+/*
 selector {
     property: value;
 }
@@ -46,11 +55,11 @@ a[href] {
 }
 
 /*naver로 시작하는 애들만*/
-a[herf^="naver"]{
+a[href^="naver"] {
     color: purple;
 }
 
 /*.com으로 끝나는 애들만*/
-a[herf$=".com"]{
+a[href$=".com"] {
     color: brown;
 }
