@@ -43,7 +43,7 @@ while ( i > 0){
 
 // do while loop, body code is executed first,
 // then check the condition
-do {
+do { 
     console.log(`do while: ${i}`);
     i--;
 }while (i > 0);
@@ -56,4 +56,28 @@ for(i = 3; i> 0; i--){
 for(let i =3; i> 0; i= i-2){
     //inline variable declaration
     console.log(`inline variable for: ${i}`);
+}
+
+// nested loops
+for(let i = 0; i<10; i++){
+    for(let j = 0; j<10; j++){
+        console.log(`i: ${i}, j: ${j}`);
+    }
+}
+
+// continue
+for(let i = 0; i<=10; i++){
+    if(i % 2 !== 0){
+        continue;
+    }
+    console.log(`i: ${i}`);
+    
+}
+
+//break
+for(let i = 0; i<= 10; i++){
+    if(i > 8){
+        break;
+    }
+    console.log(`i: ${i}`);
 }
