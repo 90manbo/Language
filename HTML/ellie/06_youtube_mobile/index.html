@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Youtube Mobile</title>
 </head>
@@ -24,14 +24,13 @@
         </div>
     </header>
     
-    <!-- player -->
+    <!-- video player -->
     <section class="player">
         <video src="video/video.mp4" controls></video>
     </section>
 
     <!-- video info-->
     <section class="info">
-
         <!-- metadata -->
         <div class="metadata">
             <ul class="hashtags">
@@ -40,8 +39,11 @@
                 <li>#Exmaples</li>
             </ul>
             <div class="titleAndButton">
-                <span class="title">Eu id est enim cillum ullamco reprehenderit do est cupidatat labore consequat. Velit nisi esse anim sit nisi exercitation consectetur aute. Do voluptate do exercitation amet mollit deserunt amet. Eiusmod in aliqua nulla minim. In eu labore fugiat cillum aute esse. Sint ea irure et tempor.</span>
-                <button class="moreBtn"></button>
+                <span class="title">Eu id est enim cillum ullamco reprehenderit do est cupidatat labore consequat. 
+                    Velit nisi esse anim sit nisi exercitation consectetur aute. </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
             </div>
             <div class="views">
                 <span class="views">1M views 1 month ago</span>
@@ -49,13 +51,13 @@
         </div>
 
         <!-- actions -->
-        <div class="actions">
-            <li><button><i class="fas fa-tumbs-down"></i><span>1K</span></button></li>
+        <ul class="actions">
+            <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
             <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
             <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
             <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
             <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
-        </div>
+        </ul>
 
         <!-- channel description -->
         <div class="channel">
@@ -69,41 +71,43 @@
             <button class="subscribe">subscribe</button>
         </div>
     </section>
+
+    <!-- upNext-->
     <section class="upNext">
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="image/1.jpg" alt="">
+                <div class="img"><img src="image/1.jpg" alt=""></div>
                 <div class="info">
                     <span class="title">
                         Amet Lorem duis officia eiusmod excepteur nisi cillum excepteur ad commodo sint eu nostrud. 
                         Irure dolor ipsum ut ea mollit nulla fugiat \pariatur tempor mollit consectetur cillum aliquip laborum.
                     </span>
-                    <span class="channel">TEST CHANNEL</span>
+                    <span class="channel">CHANNEL_NAME</span>
                     <span class="views">1M views</span>
                 </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/2.jpg" alt="">
+                <div class="img"><img src="image/2.jpg" alt=""></div>
                 <div class="info">
                     <span class="title">
                         Amet Lorem duis officia eiusmod excepteur nisi cillum excepteur ad commodo sint eu nostrud. 
                         Irure dolor ipsum ut ea mollit nulla fugiat \pariatur tempor mollit consectetur cillum aliquip laborum.
                     </span>
-                    <span class="channel">TEST CHANNEL</span>
+                    <span class="channel">CHANNEL_NAME</span>
                     <span class="views">2M views</span>
                 </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/3.jpg" alt="">
+                <div class="img"><img src="image/3.jpg" alt=""></div>
                 <div class="info">
                     <span class="title">
                         Amet Lorem duis officia eiusmod excepteur nisi cillum excepteur ad commodo sint eu nostrud. 
                         Irure dolor ipsum ut ea mollit nulla fugiat \pariatur tempor mollit consectetur cillum aliquip laborum.
                     </span>
-                    <span class="channel">TEST CHANNEL</span>
+                    <span class="channel">CHANNEL_NAME</span>
                     <span class="views">3M views</span>
                 </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
