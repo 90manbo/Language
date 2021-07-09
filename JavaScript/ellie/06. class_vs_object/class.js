@@ -1,3 +1,13 @@
+// Class
+// - template
+// - declare once
+// - no data in
+
+// Object
+// - instance of a class
+// - created many times
+// - data in
+
 'use strict';
 // Object-oriented programming
 // class: template
@@ -40,7 +50,7 @@ class User {
 
     set age(value) {
         if(value < 0){
-            throw Error('age can not be negarive');
+            throw Error('age can not be negative');
         }
         this._age = value;
     }
