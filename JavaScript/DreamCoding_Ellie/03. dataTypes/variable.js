@@ -1,5 +1,5 @@
 // 1. Use strict
-// added in ES5
+// added in ES 5
 // use ths for Vanilla Javascript
 'use strict';
 
