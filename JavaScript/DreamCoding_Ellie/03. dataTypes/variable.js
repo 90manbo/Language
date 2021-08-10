@@ -3,7 +3,9 @@
 // use ths for Vanilla Javascript
 'use strict';
 
+
 //////////////////////////////////////////////////////////////////////////////////
+
 
 // 2. Variable (read and write)
 // mutable
@@ -23,21 +25,25 @@ console.log(globalName);
 //블럭 밖이라 안보임
 console.log(name);
 
+
 //////////////////////////////////////////////////////////////////////////////////
+
 
 // 3. var(don't ever use this)
 // var hoisting(move declaration form bottom to top)
 // 어디에 선언했는지에 상관없이 선언을 제일 위로 끌어 올림.
 // block scope를 사용할 수 없음. 
 
+
 //////////////////////////////////////////////////////////////////////////////////
+
 
 // 4. constant(read only)
 // use const whenever possible.
 // only use let if variable needs to change
-
 const daysInWeek = 7;
 const maxNumber = 5;
+
 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -48,6 +54,10 @@ const maxNumber = 5;
 // - security
 // - thread safety
 // - reduce human mistakes
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
 
 // 5. Variable types
 // primitive type, single item: number, string, boolean, null, undefined, symbol
@@ -108,7 +118,10 @@ console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
 const park = {name: 'park', age: 30};
 park.age = 32;
 console.log(`value: ${park.age}, type: ${typeof park.age}`);
+
+
 //////////////////////////////////////////////////////////////////////////////////
+
 
 //6. Dynamic typing: dynamically typed language
 let text = 'hello';
