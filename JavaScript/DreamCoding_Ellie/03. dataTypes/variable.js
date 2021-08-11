@@ -1,6 +1,8 @@
+//프로그래밍의 핵심 !! 입력!! 연산!! 출력!!
+
 // 1. Use strict
 // added in ES 5
-// use ths for Vanilla Javascript
+// use this for Vanilla Javascript
 'use strict';
 
 
@@ -31,8 +33,15 @@ console.log(name);
 
 // 3. var(don't ever use this)
 // var hoisting(move declaration form bottom to top)
+// 변수의 선언들은 다른 코드보다 먼저 처리 되기때문에 
+// 코드의 최상단에서 선언한 것과 동등하다
 // 어디에 선언했는지에 상관없이 선언을 제일 위로 끌어 올림.
 // block scope를 사용할 수 없음. 
+{
+    age=4;
+    var age;
+}
+console.log(age);
 
 
 //////////////////////////////////////////////////////////////////////////////////
