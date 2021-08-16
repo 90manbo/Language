@@ -63,9 +63,15 @@ function check() {
     return true;
 }
 
-// $$ (and), fins the first falsy value
+// $$ (and), finds the first falsy value
 console.log(`and: ${value1 && value2 && check()}`);
 
+function check() {
+    for(let i = 0; i < 10; i++){
+        console.log(i);
+    }
+    return true;
+}
 // often used to compress long if-statement
 /*
 nullableObject && nullableObject.somthing
@@ -75,12 +81,9 @@ if(nullableObject != null) {
 }
 */
 
-function check() {
-    for(let i = 0; i < 10; i++){
-        console.log(i);
-    }
-    return true;
-}
+// ! (not)
+console.log(!value1);
+console.log(" ");
 
 // 7. Equality
 const stringFive = '5';
@@ -93,6 +96,7 @@ console.log(stringFive != numberFive);
 // === strict equality, no type conversion
 console.log(stringFive === numberFive);
 console.log(stringFive !== numberFive);
+console.log(" ");
 
 //object equality by reference
 const ellie1 = {name: 'ellie'};
@@ -100,7 +104,9 @@ const ellie2 = {name: 'ellie'};
 const ellie3 = ellie1;
 console.log(ellie1 == ellie2);
 console.log(ellie1 === ellie2);
+console.log(ellie1 == ellie3);
 console.log(ellie1 === ellie3);
+console.log(" ");
 
 // equality
 console.log(0 == false);

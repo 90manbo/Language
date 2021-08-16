@@ -1,7 +1,7 @@
 // Function
 // - fundemental building block in the program
-// - subprogram can be used multiple times
-// - performs a task or calculates a value
+// - subprogram can be used multiple times 재사용의 장점
+// - performs a task or calculates a value 한가지의 일 또는 값을 계산
 
 // 1. Function declaration
 // function name(param1, param2) { body.. return; }

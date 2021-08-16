@@ -47,7 +47,7 @@ console.log(age);
 //////////////////////////////////////////////////////////////////////////////////
 
 
-// 3. constants(read only)
+// 3. constant(read only)
 // use const whenever possible.
 // only use let if variable needs to change
 const daysInWeek = 7;
@@ -74,6 +74,7 @@ const maxNumber = 5;
 // primitive type, single item: number, string, boolean, null, undefined, symbol
 // object/reference type box container: 객체(배열, 함수, 정규 표현식)
 // function, first-class function
+
 const count = 15; //integer
 const size = 15.1; //decimal number
 console.log(`value: ${count}, type: ${typeof count}`);

@@ -69,7 +69,7 @@ console.log(experiment.publicField);
 console.log(experiment.privateField);
 
 // 4. Static properties and methods
-// Too soon 
+// Too soon
 class Article {
     static publisher = 'Dream Coding';
     constructor(articleNumber) {

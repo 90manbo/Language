@@ -23,7 +23,7 @@ switch (browser) {
         console.log('go away');
         break;
     case 'Chrome' :
-        case 'Firefox' :
+    case 'Firefox' :
         console.log('love you');
         break;
     default:
